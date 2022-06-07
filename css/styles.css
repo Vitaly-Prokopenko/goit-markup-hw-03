@@ -41,13 +41,16 @@ body {
 }
 
 /*---------------heder general---------------*/
+
+.heder {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-}
-.heder {
-  border-bottom: 1px solid #ececec;
 }
 
 .heder-content {
@@ -72,6 +75,9 @@ body {
   display: block;
   text-decoration: none;
   list-style: none;
+}
+
+.heder-logo {
   margin-right: 93px;
 }
 
@@ -155,10 +161,13 @@ body {
 
 .section-hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
-.hero-content {
-  padding: 200px 100px;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .title-hero {
@@ -210,7 +219,10 @@ body {
   flex-wrap: nowrap;
   gap: 30px;
   list-style: none;
-  padding: 94px 0;
+}
+
+.feature-list-item {
+  width: 270px;
 }
 
 .feature-title {
@@ -223,7 +235,7 @@ body {
   margin-bottom: 10px;
 }
 
-.feature-descrition {
+.feature-description {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -235,11 +247,7 @@ body {
 
 .section-work {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-}
-
-.section-container {
   padding-bottom: 94px;
 }
 
@@ -263,10 +271,6 @@ body {
 }
 
 /*---------------our team--------------- */
-
-.team {
-  padding: 94px 0;
-}
 
 .decription-team {
   padding: 30px;
@@ -297,16 +301,13 @@ body {
 
 .footer {
   background-color: #2f303a;
-}
-
-.footer-content {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .footer-logo {
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .bottom-logo {
@@ -359,8 +360,9 @@ body {
 
 /*---------------main---------------*/
 
-.main-content {
-  padding: 94px 0;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*---------------button-filter---------------*/
@@ -368,7 +370,6 @@ body {
 .container-buttons {
   display: flex;
   justify-content: center;
-
   margin-bottom: 50px;
 }
 
@@ -434,7 +435,9 @@ body {
   gap: 30px;
   list-style: none;
 }
-.projects-item {
+
+.description-projects {
+  padding: 20px 24px;
   border-bottom: 1px solid #eeeeee;
 }
 
@@ -445,6 +448,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+  margin-bottom: 4px;
 }
 
 .filter-title {
